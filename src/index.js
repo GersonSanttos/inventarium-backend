@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/inventarium', {
+mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
 });
 

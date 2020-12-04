@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-// const { promisify } = require('util');
 
 const loanSchema = new mongoose.Schema(
   {
